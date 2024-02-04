@@ -9,18 +9,15 @@ console.log("EXERCISE 1:\n==========\n");
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-/*for(let int = 1; int <= 100; int++) {
+for(let int = 1; int <= 100; int++) {
     console.log(int);
-    if(int % 3 == 0) {
-        console.log("FIZZ") }
-    else{
-        if(int % 5 == 0){
-        console.log("BUZZ")
-        }}
-        if(int % 3 == 0 && int % 5 == 0) {
-        console.log("FIZZBUZZ")
-            }
-}*/
+    if(int % 3 == 0 && int % 5 == 0) {
+        console.log("FIZZBUZZ")}
+        else if(int % 5 == 0){
+            console.log("BUZZ")}
+        else if(int % 3 == 0) {
+            console.log("FIZZ") }
+}
 
 //EXERCISE 3 -----
 console.log("EXERCISE 3:\n==========\n");
@@ -87,7 +84,7 @@ while(i<100);
 //EXERCISE 4 -----
 console.log("EXERCISE 4:\n==========\n");
 
-let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
+/*let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 
 for(let i = 1; i<= n; i++){
@@ -99,3 +96,4 @@ for(let i = 1; i<= n; i++){
         console.log(`Did not find ${value} within 1-${n}.`);
     }
 }
+*/
